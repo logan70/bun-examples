@@ -59,3 +59,14 @@ bun run examples/react-ssr/index.tsx
 ``` 
 
 然后打开 http://localhost:3000 查看效果
+
+### 示例-Next.js
+
+```sh
+cd examples/next
+bun install
+
+bun dev
+```
+
+然后打开 http://localhost:3000 查看效果
