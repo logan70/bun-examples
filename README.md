@@ -27,3 +27,35 @@ bun run examples/http-base/index.ts
 - 基础示例: http://localhost:3000
 - 文件响应: http://localhost:3000/README.md
 - 主动停止服务: http://localhost:3000/admin/stop
+
+### 示例-React
+
+```sh
+cd examples/react
+bun install
+
+bun dev
+```
+
+然后打开 http://localhost:3000 查看效果
+
+### 示例-React + Typescript
+
+```sh
+cd examples/react-typescript
+bun install
+
+bun dev
+```
+
+然后打开 http://localhost:3000 查看效果
+
+### 示例-React SSR
+
+```sh
+bun install
+
+bun run examples/react-ssr/index.tsx
+``` 
+
+然后打开 http://localhost:3000 查看效果
