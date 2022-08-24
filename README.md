@@ -70,3 +70,15 @@ bun dev
 ```
 
 然后打开 http://localhost:3000 查看效果
+
+
+### 示例-Remix
+
+```sh
+cd examples/remix
+bun install
+
+bun run dev
+```
+
+然后打开 http://localhost:3000 查看效果
