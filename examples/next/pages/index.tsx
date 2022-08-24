@@ -3,6 +3,7 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 import nextPackage from "next/package.json";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home({}) {
   return (
@@ -18,8 +19,14 @@ export default function Home({}) {
           Learn <a href="https://nextjs.org">Next.js!</a> v
           {nextPackage.version}
           <br/>
-        Read <Link href="/posts/first-post">this page!</Link>
+          Read <Link href="/posts/first-post">this page!</Link>
 
+          {/* <Image
+            src="/images/profile.jpg" // Route of the image file
+            height={144} // Desired size with correct aspect ratio
+            width={144} // Desired size with correct aspect ratio
+            alt="Profile"
+          /> */}
         </h1>
 
         <p className={styles.description}>
