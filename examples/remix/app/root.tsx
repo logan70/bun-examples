@@ -118,6 +118,7 @@ function App({ children }: React.PropsWithChildren<{}>) {
           <nav>
             <RemixReact.Link to="/">Home</RemixReact.Link> /{" "}
             <RemixReact.Link to="/counter">Counter</RemixReact.Link> /{" "}
+            <RemixReact.Link to="/posts">Posts</RemixReact.Link> /{" "}
             <span>Latency: {latency === 0 ? "?" : latency.toFixed(2)}ms</span>
           </nav>
         </header>
